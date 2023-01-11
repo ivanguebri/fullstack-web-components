@@ -27,7 +27,7 @@ export default {
 const PrimaryTemplate = ({ image, headline, content, link }) => `
   <in-card>
     <img slot="header" src="${image}" />
-    <h4 slot="header">${headline}</h4>
+    <h4 class="tes" slot="header">${headline}</h4>
     <p slot="content">${content}</p>
     <a slot="footer" href="#">${link}</a>
   </in-card>
